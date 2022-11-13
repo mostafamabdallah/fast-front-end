@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 @font-face {
   font-family: "VEXA";
@@ -10,4 +10,5 @@
 
 html {
   @apply font-primary;
+  @apply text-niceGray;
 }
